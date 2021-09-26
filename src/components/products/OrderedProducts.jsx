@@ -57,7 +57,7 @@ const OrderedProducts = (props) => {
               <ListItemText primary={`￥${product.price.toLocaleString()}`} />
             </div>
             <PrimaryButton
-              label={'商品詳細を見る'}
+              label='商品詳細を見る'
               onClick={() => goToProductDetail(product.id)}
             />
           </ListItem>

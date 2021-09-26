@@ -49,48 +49,48 @@ const SignUp = () => {
       <div className="module-spacer--medium" />
       <TextInput
         fullWidth={true}
-        label={'ユーザー名'}
+        label='ユーザー名'
         multiple={false}
         required={true}
         rows={1}
         value={username}
-        type={'text'}
+        type='text'
         onChange={inputUsername}
       />
       <TextInput
         fullWidth={true}
-        label={'メールアドレス'}
+        label='メールアドレス'
         multiple={false}
         required={true}
         rows={1}
         value={email}
-        type={'email'}
+        type='email'
         onChange={inputEmail}
       />
       <TextInput
         fullWidth={true}
-        label={'パスワード'}
+        label='パスワード'
         multiple={false}
         required={true}
         rows={1}
         value={password}
-        type={'password'}
+        type='password'
         onChange={inputPassword}
       />
       <TextInput
         fullWidth={true}
-        label={'パスワード（再確認）'}
+        label='パスワード（再確認）'
         multiple={false}
         required={true}
         rows={1}
         value={confirmPassword}
-        type={'password'}
+        type='password'
         onChange={inputConfirmPassword}
       />
       <div className="module-spacer--medium" />
       <div className="center">
         <PrimaryButton
-          label={'アカウントを登録する'}
+          label='アカウントを登録する'
           onClick={() =>
             dispatch(signUp(username, email, password, confirmPassword))
           }

@@ -71,13 +71,13 @@ const OrderConfirm = () => {
           </List>
         </div>
         <div className={classes.orderBox}>
-          <TextDetail label={'商品合計'} value={subTotal.toLocaleString()} />
-          <TextDetail label={'消費税'} value={tax} />
-          <TextDetail label={'送料'} value={shippingFee.toLocaleString()} />
+          <TextDetail label='商品合計' value={subTotal.toLocaleString()} />
+          <TextDetail label='消費税' value={tax} />
+          <TextDetail label='送料' value={shippingFee.toLocaleString()} />
           <Divider />
           <div className="module-spacer--extra-small" />
-          <TextDetail label={'合計（税込）'} value={total.toLocaleString()} />
-          <PrimaryButton label={'注文する'} onClick={order} />
+          <TextDetail label='合計（税込）' value={total.toLocaleString()} />
+          <PrimaryButton label='注文する' onClick={order} />
         </div>
       </div>
     </section>

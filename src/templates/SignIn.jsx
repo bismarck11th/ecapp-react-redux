@@ -33,28 +33,28 @@ const SignIn = () => {
       <div className="module-spacer--medium" />
       <TextInput
         fullWidth={true}
-        label={'メールアドレス'}
+        label='メールアドレス'
         multiple={false}
         required={true}
         rows={1}
         value={email}
-        type={'email'}
+        type='email'
         onChange={inputEmail}
       />
       <TextInput
         fullWidth={true}
-        label={'パスワード'}
+        label='パスワード'
         multiple={false}
         required={true}
         rows={1}
         value={password}
-        type={'password'}
+        type='password'
         onChange={inputPassword}
       />
       <div className="module-spacer--medium" />
       <div className="center">
         <PrimaryButton
-          label={'Sign In'}
+          label='Sign In'
           onClick={() => dispatch(signIn(email, password))}
         />
         <div className="module-spacer--medium" />

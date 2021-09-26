@@ -148,7 +148,7 @@ const ClosableDrawer = (props) => {
               onChange={inputKeyword}
               rows={1}
               value={keyword}
-              type={'text'}
+              type='text'
               required={false}
             />
             <IconButton>

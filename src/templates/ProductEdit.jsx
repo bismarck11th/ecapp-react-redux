@@ -96,33 +96,33 @@ const ProductEdit = () => {
         <ImageArea images={images} setImages={setImages} />
         <TextInput
           fullWidth={true}
-          label={'商品名'}
+          label='商品名'
           multiline={false}
           required={true}
           rows={1}
           value={name}
-          type={'text'}
+          type='text'
           onChange={inputUsername}
         />
         <TextInput
           fullWidth={true}
-          label={'商品説明'}
+          label='商品説明'
           multiline={true}
           required={true}
           rows={5}
           value={description}
-          type={'text'}
+          type='text'
           onChange={inputDescription}
         />
         <SelectBox
-          label={'カテゴリー'}
+          label='カテゴリー'
           required={true}
           options={categories}
           select={setCategory}
           value={category}
         />
         <SelectBox
-          label={'性別'}
+          label='性別'
           required={true}
           options={genders}
           select={setGender}
@@ -130,12 +130,12 @@ const ProductEdit = () => {
         />
         <TextInput
           fullWidth={true}
-          label={'価格'}
+          label='価格'
           multiline={false}
           required={true}
           rows={1}
           value={price}
-          type={'number'}
+          type='number'
           onChange={inputPrice}
         />
         <div className="module-spacer--small" />
@@ -143,7 +143,7 @@ const ProductEdit = () => {
         <div className="module-spacer--small" />
         <div className="center">
           <PrimaryButton
-            label={'商品情報を保存'}
+            label='商品情報を保存'
             onClick={() =>
               dispatch(
                 saveProduct(

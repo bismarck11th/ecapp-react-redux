@@ -132,23 +132,23 @@ const SetSizeArea = (props) => {
         <div>
           <TextInput
             fullWidth={false}
-            label={'サイズ'}
+            label='サイズ'
             multiple={false}
             required={true}
             onChange={InputSize}
             rows={1}
             value={size}
-            type={'text'}
+            type='text'
           />
           <TextInput
             fullWidth={false}
-            label={'数量'}
+            label='数量'
             multiple={false}
             required={true}
             onChange={InputQuantity}
             rows={1}
             value={quantity}
-            type={'number'}
+            type='number'
           />
         </div>
         <IconButton

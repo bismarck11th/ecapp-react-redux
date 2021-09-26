@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { push } from 'connected-react-router';
 import { useDispatch } from 'react-redux';
-import {deleteProduct } from '../../reducks/products/operations'
+import { deleteProduct } from '../../reducks/products/operations';
 // MUI
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';

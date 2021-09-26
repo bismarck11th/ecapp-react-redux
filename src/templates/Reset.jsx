@@ -25,18 +25,18 @@ const Reset = () => {
       <div className="module-spacer--medium" />
       <TextInput
         fullWidth={true}
-        label={'メールアドレス'}
+        label='メールアドレス'
         multiple={false}
         required={true}
         rows={1}
         value={email}
-        type={'email'}
+        type='email'
         onChange={inputEmail}
       />
       <div className="module-spacer--medium" />
       <div className="center">
         <PrimaryButton
-          label={'Reset Password'}
+          label='Reset Password'
           onClick={() => dispatch(resetPassword(email))}
         />
         <div className="module-spacer--medium" />
